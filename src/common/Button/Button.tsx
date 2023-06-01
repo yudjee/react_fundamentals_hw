@@ -5,7 +5,7 @@ import styles from "./Button.module.css";
 export interface IButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   buttonText: string;
-  handleClick: () => void;
+  handleClick?: () => void;
   className?: string;
 }
 
@@ -17,7 +17,6 @@ export const Button: FC<IButtonProps> = ({
 }) => (
   <button
     className={`${styles.button} ${className}`}
-    onClick={handleClick}
     {...props}
   >
     {buttonText}
