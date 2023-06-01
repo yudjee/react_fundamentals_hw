@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  column-gap: 100px;
+  border: 1px solid brown;
+  padding: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+.description {
+  width: 70%;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.button {
+  margin: 0 auto;
+  margin-top: 20px;
+}

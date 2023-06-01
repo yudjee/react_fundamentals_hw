@@ -1,0 +1,13 @@
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.authorsWrapper {
+  display: flex;
+}
+
+.authorsWrapper div {
+  flex-basis: 50%;
+}
